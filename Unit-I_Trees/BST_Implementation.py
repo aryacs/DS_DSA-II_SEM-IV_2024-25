@@ -19,6 +19,11 @@ class Tree:
 #Driver code
 tree = Tree()
 root = tree.createNode(5)
+tree.createNode(2)
+tree.createNode(4)
+tree.createNode(8)
+tree.createNode(6)
+tree.createNode(10)
 print("Root of Tree is:", root.data)
 
 
